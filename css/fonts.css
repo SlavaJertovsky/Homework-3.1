@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Nunito"),
+         /* Если не получилось, загрузит woff2 */
+         url("/fonts/Nunito-Regular.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("/fonts/Nunito-Regular.woff") format("woff");
+  }
+ 
+  @font-face {
+    font-family: "Nunito";
+    font-style:normal;
+    font-weight: 800;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Nunito"),
+         /* Если не получилось, загрузит woff2 */
+         url("/fonts/Nunito-Bold.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("/fonts/Nunito-Bold.woff") format("woff");
+  }
+
+ 
